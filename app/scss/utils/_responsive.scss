@@ -1,0 +1,115 @@
+@media only screen and (min-width: 768px) {
+  .mobile-menu,
+  .mobile-menu-exit {
+    display: none;
+  }
+
+  .navbar {
+    .container {
+      display: grid;
+      grid-template-columns: 180px auto;
+      justify-content: unset;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      background: none;
+      position: unset;
+      height: auto;
+      width: 100%;
+      padding: 0;
+
+      ul {
+        display: flex;
+      }
+
+      a {
+        color: black;
+        font-size: 1em;
+        padding: 0.1em 1em;
+      }
+
+      ul.primary-nav {
+        margin: 0;
+      }
+
+      li.current a {
+        font-weight: bold;
+      }
+
+      li.hire-me-cta a {
+        color: $primaryColor;
+        border: 3px solid $primaryColor;
+        font-weight: bold;
+        border-radius: 5em;
+        margin-top: -0.2em;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: $primaryColor;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+
+  section {
+    padding: 10em 4em;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+  }
+
+  .hero .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+    .left-col {
+      margin: 3em 3em 0 5em;
+
+      h1 {
+        font-size: 3em;
+        width: 90%;
+      }
+    }
+  }
+
+  .hero-img {
+    width: 30%;
+    margin-right: 8em;
+  }
+
+  .hero-cta {
+    display: flex;
+  }
+  .primary-cta {
+    margin-right: 1em;
+  }
+
+  .contact-section {
+    position: relative;
+
+    .container {
+      display: flex;
+    }
+  }
+
+  .contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+  }
+}
