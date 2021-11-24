@@ -679,17 +679,6 @@ tl.from(".container", {
   ease: Power4.easeOut,
 });
 
-tl.from(
-  ".stagger1",
-  {
-    opacity: 0,
-    y: -50,
-    stagger: 0.3,
-    ease: Power4.easeOut,
-    duration: 2,
-  },
-  "-=1.5"
-);
 
 tl.from(
   ".stagger2",
