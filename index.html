@@ -51,12 +51,68 @@
         </li>
       </ul>
     </div>
+
     <div id="fullpage">
       <div id="hero" class="section hero">
         <div id="vanta-canvas" class="vanta-canvas"></div>
-        <h1 class="hero-title">Fizzify</h1>
-        <h2>I'm a <span class="typing"></span></h2>
-        <div class="btn btn-rounded btn-l"><a href="#"><p>Learn More</p></a></div>
+        <div class="container">
+          <h1 class="hero-title">Fizzify</h1>
+          <h2>I'm a <span class="typing"></span></h2>
+          <div class="btn btn-rounded btn-l">
+            <a href="#"><p>Learn More</p></a>
+          </div>
+          <div class="indicator">
+            <svg
+            class="scroll"
+            width="40"
+            height="77"
+            viewBox="0 0 40 77"
+            style="transform: translate(0px); opacity: 1"
+          >
+            <g id="scroll" transform="translate(-253 -787)">
+              <g
+                id="Rectangle_12"
+                data-name="Rectangle 12"
+                transform="translate(253 787)"
+                fill="none"
+                stroke="#fff"
+                stroke-width="4"
+                style="--darkreader-inline-stroke: #e8e6e3"
+                data-darkreader-inline-stroke=""
+              >
+                <rect
+                  width="40"
+                  height="77"
+                  rx="20"
+                  stroke="none"
+                  style="--darkreader-inline-stroke: none"
+                  data-darkreader-inline-stroke=""
+                ></rect>
+                <rect
+                  x="2"
+                  y="2"
+                  width="36"
+                  height="73"
+                  rx="18"
+                  fill="none"
+                ></rect>
+              </g>
+              <circle
+                class="circle"
+                id="Ellipse_1"
+                data-name="Ellipse 1"
+                cx="11"
+                cy="11"
+                r="11"
+                transform="translate(262 798)"
+                fill="#fff"
+                style="--darkreader-inline-fill: #e8e6e3"
+                data-darkreader-inline-fill=""
+              ></circle>
+            </g>
+          </svg>
+          </div>
+        </div>
       </div>
       <div id="about" class="section about">Some section</div>
       <div class="section services">Some section</div>
@@ -77,38 +133,14 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script>
-      $("document").ready(function () {
-        var typed = new Typed(".typing", {
-          strings: [
-            "YouTuber",
-            "Developer",
-            "Student",
-            "Designer",
-            "Freelancer",
-          ],
-          typeSpeed: 100,
-          backSpeed: 60,
-          loop: true,
-        });
-      });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+      integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="/app/js/vanta.net.min.js"></script>
-    <script>
-    VANTA.NET({
-      el: "#vanta-canvas",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: true,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0x3DD6D0,
-      backgroundColor: 0x181818 
-    })
-    </script>
     <script src="app/js/app.js"></script>
   </body>
 </html>
