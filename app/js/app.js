@@ -702,3 +702,15 @@ tl.from(
   },
   "-=1.5"
 );
+
+tl.from(
+  ".vanta-canvas",
+  {
+    opacity: 0,
+    y: 50,
+    stagger: 0.1,
+    ease: Power4.easeOut,
+    duration: 2,
+  },
+  "-=2.1"
+);
