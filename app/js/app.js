@@ -21,7 +21,6 @@ $("document").ready(function () {
 	  strings: [
 		"YouTuber",
 		"Developer",
-		"Student",
 		"Designer",
 		"Freelancer",
 	  ],
