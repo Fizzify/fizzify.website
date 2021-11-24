@@ -39,3 +39,9 @@ picture {
   max-width: 100%;
   display: block;
 }
+
+
+::selection {
+  background-color: $primaryColor;
+  color: black;
+}

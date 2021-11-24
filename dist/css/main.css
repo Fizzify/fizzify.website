@@ -43,6 +43,16 @@ picture {
   display: block;
 }
 
+::-moz-selection {
+  background-color: #3DD6D0;
+  color: black;
+}
+
+::selection {
+  background-color: #3DD6D0;
+  color: black;
+}
+
 .btn {
   display: inline-block;
   background-color: #3DD6D0;
@@ -180,6 +190,8 @@ picture {
   margin-left: 23.2em;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
+  -webkit-box-shadow: 0px 8px #398ebe;
+          box-shadow: 0px 8px #398ebe;
 }
 
 .hero .btn a {
