@@ -1,0 +1,28 @@
+.btn {
+  display: inline-block;
+  background-color: $primaryColor;
+  color: $bodyColor;
+  padding: 0.3rem 1.3rem;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  box-shadow: 0 1px rgba($color: #000000, $alpha: 0.45);
+  border-radius: 2px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.btn-rounded {
+  border-radius: 5px;
+}
+
+.btn-l {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,32 @@
+.hero {
+  text-align: left;
+
+  .hero-title {
+    font-size: 5.5em;
+    margin-bottom: 0em;
+    line-height: 1.2;
+    margin-left: 5em;
+  }
+
+  h2 {
+    color: rgb(165, 165, 165);
+    font-weight: 300;
+    margin-left: 18.5em;
+
+    span {
+      color: $primaryColor;
+    }
+  }
+
+  .btn {
+    margin-top: 4em;
+    margin-bottom: 5em;
+    margin-left: 23.2em;
+    transition: opacity 0.3s ease;
+
+    a {
+      text-decoration: none;
+      color: $bodyColor;
+    }
+  }
+}
