@@ -202,4 +202,12 @@ picture {
   text-decoration: none;
   color: #181818;
 }
+
+.hero .vanta-canvas {
+  position: absolute;
+  opacity: 0.8;
+  width: 100%;
+  height: 67vh;
+  z-index: -100;
+}
 /*# sourceMappingURL=main.css.map */

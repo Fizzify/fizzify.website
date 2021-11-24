@@ -51,9 +51,9 @@
         </li>
       </ul>
     </div>
-
     <div id="fullpage">
       <div id="hero" class="section hero">
+        <div id="vanta-canvas" class="vanta-canvas"></div>
         <h1 class="hero-title">Fizzify</h1>
         <h2>I'm a <span class="typing"></span></h2>
         <div class="btn btn-rounded btn-l"><a href="#"><p>Learn More</p></a></div>
@@ -92,6 +92,22 @@
           loop: true,
         });
       });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/app/js/vanta.net.min.js"></script>
+    <script>
+    VANTA.NET({
+      el: "#vanta-canvas",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x3DD6D0,
+      backgroundColor: 0x181818 
+    })
     </script>
     <script src="app/js/app.js"></script>
   </body>
