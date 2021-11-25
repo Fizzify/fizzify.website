@@ -6382,7 +6382,7 @@ tl.from(
     ease: Power4.easeOut,
     duration: 2,
   },
-  "-=2.1"
+  "-=1.75"
 );
 
 gsap.from(".transition2", {
