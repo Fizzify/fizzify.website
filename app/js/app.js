@@ -6384,3 +6384,10 @@ tl.from(
   },
   "-=2.1"
 );
+
+gsap.from(".transition2", {
+  scrollTrigger: {
+    trigger: ".transition2",
+    start: "top bottom",
+  },
+});
