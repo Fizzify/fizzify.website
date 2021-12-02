@@ -2,6 +2,7 @@ new fullpage("#fullpage", {
   //options here
   autoScrolling: true,
   scrollHorizontally: true,
+  licenseKey: 'zhFWUVA@k0'
 });
 
 /*!

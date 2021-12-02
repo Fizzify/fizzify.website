@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 @font-face {
   font-family: 'futura';
   src: url("/images/Futura Book.ttf");
@@ -24,6 +25,12 @@ dd {
   margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Nunito', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -39,6 +46,10 @@ body {
   text-rendering: optimizeSpeed;
   background-color: #181818;
   color: #ececec;
+}
+
+.section {
+  min-height: 100vh;
 }
 
 img,
@@ -629,6 +640,138 @@ html.fp-enabled {
     -webkit-transform: translate(262px, 830px);
             transform: translate(262px, 830px);
     opacity: 0;
+  }
+}
+
+.skills .inner {
+  padding-top: 1.2rem;
+}
+
+@media (max-width: 1148px) {
+  .skills .inner {
+    padding-top: 0.8rem;
+  }
+}
+
+.skills .header {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+@media (max-width: 1148px) {
+  .skills .header {
+    padding: 0.3rem;
+  }
+}
+
+@media (max-width: 1148px) {
+  .skills h3 {
+    font-size: 0.8em;
+  }
+}
+
+.skills .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1148px) {
+  .skills .container {
+    font-size: 0.8em;
+  }
+}
+
+.skills .skills-box {
+  padding: 1rem;
+  color: #ddd;
+  cursor: pointer;
+  width: 500px;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.skills .skills-box:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+@media (max-width: 1148px) {
+  .skills .skills-box {
+    padding: 0.3rem;
+  }
+}
+
+.skills .skills-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.skills .skills-title h3 {
+  margin: 0.5rem;
+}
+
+@media (max-width: 1148px) {
+  .skills .skills-title {
+    margin-bottom: 0.2rem;
+  }
+}
+
+.skills .img {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills .skills-icon {
+  width: 50px;
+}
+
+.skills p {
+  color: #b1b1b1;
+}
+
+@media (max-width: 1148px) {
+  .skills p {
+    font-size: 0.7em;
   }
 }
 /*# sourceMappingURL=main.css.map */

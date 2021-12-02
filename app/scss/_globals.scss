@@ -3,6 +3,8 @@
   src: url('/images/Futura\ Book.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -23,6 +25,12 @@ dd {
   margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Nunito', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -34,6 +42,10 @@ body {
   text-rendering: optimizeSpeed;
   background-color: $bodyColor;
   color: rgb(236, 236, 236);
+}
+
+.section {
+  min-height: 100vh;
 }
 
 
