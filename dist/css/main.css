@@ -592,4 +592,38 @@ html.fp-enabled {
   }
 }
 
+.projects {
+  text-align: center;
+}
+.projects .projects-header {
+  padding-bottom: 10em;
+}
+.projects .projects-header .projects-title {
+  font-size: 3rem;
+}
+.projects .projects-header .projects-subtitle {
+  color: rgb(150, 150, 150);
+}
+.projects .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.projects .grid .project-item {
+  padding: 3em;
+}
+.projects .grid .project-item p {
+  color: rgb(150, 150, 150);
+}
+.projects .grid .project-item .item-img {
+  margin-top: 4em;
+  border: 1px solid white;
+  transition: 0.5s ease;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.projects .grid .project-item .item-img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
 /*# sourceMappingURL=main.css.map */

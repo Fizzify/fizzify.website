@@ -1,0 +1,41 @@
+.projects {
+  text-align: center;
+
+  .projects-header {
+    padding-bottom: 10em;
+
+    .projects-title {
+      font-size: 3rem;
+    }
+
+    .projects-subtitle {
+      color: rgb(150, 150, 150);
+    }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    .project-item {
+      padding: 3em;
+
+      p {
+        color: rgb(150, 150, 150);
+      }
+
+      .item-img {
+        margin-top: 4em;
+        border: 1px solid white;
+        transition: 0.5s ease;
+        cursor: pointer;
+        border-radius: 5px;
+
+        &:hover {
+          transform: scale(1.1);
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
