@@ -484,6 +484,24 @@ html.fp-enabled {
     opacity: 0;
   }
 }
+.about {
+  text-align: center;
+}
+.about .about-title {
+  font-size: 3rem;
+}
+.about .about-subtitle {
+  color: rgb(150, 150, 150);
+}
+.about .about-paragraph {
+  padding: 1em;
+  width: 800px;
+  margin: 0 auto;
+}
+.about .code-icon {
+  margin: 2em;
+}
+
 .skills .inner {
   padding-top: 1.2rem;
 }
@@ -571,6 +589,49 @@ html.fp-enabled {
 @media (max-width: 1148px) {
   .skills p {
     font-size: 0.7em;
+  }
+}
+
+.projects {
+  text-align: center;
+}
+.projects .projects-header {
+  padding-bottom: 10em;
+}
+.projects .projects-header .projects-title {
+  font-size: 3rem;
+}
+.projects .projects-header .projects-subtitle {
+  color: rgb(150, 150, 150);
+}
+.projects .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+.projects .grid .project-item {
+  padding: 3em;
+}
+.projects .grid .project-item p {
+  color: rgb(150, 150, 150);
+}
+.projects .grid .project-item .item-img {
+  margin-top: 4em;
+  border: 1px solid white;
+  transition: 0.5s ease;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.projects .grid .project-item .item-img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 700px) {
+  .project-item h1 {
+    font-size: 0.5rem;
+  }
+  .project-item p {
+    font-size: 5px;
   }
 }
 
